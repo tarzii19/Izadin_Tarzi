@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="contactme.css" type="style/text">
+<head>
+  <title>Contact Me</title>
+</head>
+<body>
+  <div data-role="header">
+    <link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
+    <h2>Contact Me</h2>
+    <p>Press the cancel button to return to the home page</p>
+  </div>
+  <div data-role="content">
+    <div data-role="fieldcontain">
+      <form action="izadin_contact.php" method="post" name="contact_form">
+     <label for="text-1">Name</label><input type="text" name="text-1" id="text-1" value=""><br>
+     <label for="text-2">Email</label><input type="text" data-clear-btn="true" name="text-2" id="text-2" value=""><br>
+     <label for="textarea-1">Message</label><textarea name="textarea-1" id="textarea-1"></textarea><br>
+</form>
+      <div data-inline="true">
+        <button data-inline="true">Submit</button>
+        <button data-inline="true"><a href="index.html">Cancel</button>
+      </div>
+
+      <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+    <source src="Free Stock Footage Water Caustics II Motion Background HD 1080P.mp4" type="video/mp4">
+  Video not supported
+  </video>
+
+</body>
+</html>
